@@ -12,7 +12,19 @@
       "Bash(npx babel:*)",
       "Bash(ssh -o ConnectTimeout=5 -o BatchMode=yes root@85.31.238.69 \"echo connected\")",
       "Bash(ssh:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git remote add:*)",
+      "Bash(gh pr:*)",
+      "Bash(where:*)",
+      "Bash(winget list:*)",
+      "Bash(winget install:*)",
+      "Bash(gh auth login:*)",
+      "Bash(\"/c/Program Files/GitHub:*)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" repo view Scarch30/FormifAI --json defaultBranchRef,branches)",
+      "Bash(git checkout:*)",
+      "Bash(git stash:*)"
     ]
   }
 }
