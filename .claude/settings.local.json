@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx eslint:*)",
+      "Bash(node --check:*)",
+      "Bash(taskkill:*)",
+      "Bash(npm start -- --clear)",
+      "Bash(timeout /t 2 /nobreak)",
+      "Bash(npx expo start:*)",
+      "Bash(node -e:*)",
+      "Bash(npx expo export:*)",
+      "Bash(npx babel:*)",
+      "Bash(ssh -o ConnectTimeout=5 -o BatchMode=yes root@85.31.238.69 \"echo connected\")",
+      "Bash(ssh:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
