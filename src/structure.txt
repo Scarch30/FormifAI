@@ -1,0 +1,65 @@
+Structure du dossier pour le volume OS
+Le numéro de série du volume est B84C-81C8
+C:.
+|   structure.txt
+|   
++---api
+|       client.js
+|       formsScreenService.js
+|       
++---components
+|   |   DraggableField.js
+|   |   EditableField.js
+|   |   FieldConfigModal.js
+|   |   FieldConfigSheet.js
+|   |   FieldRenderer.js
+|   |   FieldToolbar.js
+|   |   PlacedField.js
+|   |   SelectionModal.js
+|   |   
+|   +---FieldContextMenu
+|   |   |   index.js
+|   |   |   
+|   |   \---submenus
+|   |           ConfigSubmenu.js
+|   |           MoveSubmenu.js
+|   |           ResizeSubmenu.js
+|   |           TextSubmenu.js
+|   |           
+|   \---forms
+|           ConfirmActionModal.js
+|           DocumentsListCard.js
+|           ReadyFormCard.js
+|           TemplatesListCard.js
+|           
++---context
+|       AuthContext.js
+|       
++---screens
+|       FormFillScreen.js
+|       FormFillsScreen.js
+|       HomeScreen.js
+|       ImportTemplateScreen.js
+|       LoginScreen.js
+|       OcrDocumentsScreen.js
+|       RecordScreen.js
+|       RegisterScreen.js
+|       TemplateDetailScreen.js
+|       TemplateEditorScreen.js
+|       TemplateSetupScreen.js
+|       TemplatesScreen.js
+|       TranscriptionScreen.js
+|       TranscriptionsScreen.js
+|       WorkProfileDetailScreen.js
+|       WorkProfilesScreen.js
+|       
++---storage
+|       audioLibrary.js
+|       
+\---utils
+    |   fieldUtils.js
+    |   multiSelectUtils.js
+    |   
+    \---__tests__
+            multiSelectUtils.test.js
+            

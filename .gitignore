@@ -39,3 +39,12 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# IDE
+.idea/
+
+# Build artifacts
+com.facebook.react.viewmanagers.*
+
+# Windows artifacts
+nul
